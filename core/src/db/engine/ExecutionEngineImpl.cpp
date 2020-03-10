@@ -61,7 +61,7 @@ MappingMetricType(MetricType metric_type, milvus::json& conf) {
             conf[knowhere::Metric::TYPE] = knowhere::Metric::TANIMOTO;
             break;
         case MetricType::SUBSTRUCTURE:
-            conf[knowhere::Metric::TYPE] = knowhere::Metric::SUBSTRUCTUREj;
+            conf[knowhere::Metric::TYPE] = knowhere::Metric::SUBSTRUCTURE;
             break;
         case MetricType::SUPERSTRUCTURE:
             conf[knowhere::Metric::TYPE] = knowhere::Metric::SUPERSTRUCTURE;
