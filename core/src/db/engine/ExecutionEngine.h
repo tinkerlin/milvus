@@ -39,12 +39,12 @@ enum class EngineType {
 };
 
 enum class MetricType {
-    L2 = 1,        // Euclidean Distance
-    IP = 2,        // Cosine Similarity
-    HAMMING = 3,   // Hamming Distance
-    JACCARD = 4,   // Jaccard Distance
-    TANIMOTO = 5,  // Tanimoto Distance
-    SUBSTRUCTURE = 6,   // Substructure Distance
+    L2 = 1,              // Euclidean Distance
+    IP = 2,              // Cosine Similarity
+    HAMMING = 3,         // Hamming Distance
+    JACCARD = 4,         // Jaccard Distance
+    TANIMOTO = 5,        // Tanimoto Distance
+    SUBSTRUCTURE = 6,    // Substructure Distance
     SUPERSTRUCTURE = 7,  // Superstructure Distance
     MAX_VALUE = SUPERSTRUCTURE
 };
